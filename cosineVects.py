@@ -11,7 +11,7 @@ import math
 currentDir = os.getcwd()
 print(currentDir)
 
-#os.chdir('/Users/Margaret/anaconda3/glove.6B')
+#os.chdir('/Users/glove.6B')
 
 #read in GloVe file and put into a list of vector string entries
 def readVectors(file):
@@ -92,4 +92,4 @@ def findVec(w1, w2):
 readVectors("glove.6B.50d.txt")
 
 #use to find the cosine of two word vectors, e.g. neighbors and rats
-findVec('dogs', 'rats')
+findVec('neighbors', 'rats')
