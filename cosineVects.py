@@ -22,6 +22,7 @@ def readVectors(file):
             strings.append(entry)
     #print here to see example vector 50 as a string
     #print(strings[50])
+    global vectors
     vectors = []
     for string in strings:
         vectors.append(string.split())
